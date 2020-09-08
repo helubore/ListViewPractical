@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ListViewActivity</string>
+    <string-array name="coffee_options">
+        <item>Drinks</item>
+        <item>Stores</item>
+        <item>Meals</item>
+        <item>Contact</item>
+    </string-array>
+</resources>

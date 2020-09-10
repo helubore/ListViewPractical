@@ -6,4 +6,7 @@
         <item>Meals</item>
         <item>Contact</item>
     </string-array>
+    <string name="drinks">Choose your coffee</string>
+    <string name="details">Coffee details</string>
+    <string name="create_order">Create Order</string>
 </resources>

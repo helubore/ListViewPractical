@@ -1,6 +1,7 @@
 package com.rehoboth.listviewactivity;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.media.Image;
@@ -16,6 +17,9 @@ public class DrinksDetail extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drinks_detail);
+
+        Toolbar tBar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(tBar);
 
         Intent intent = getIntent();
         int drinkId = (Integer) intent.getIntExtra(DRINK_ID,0);

@@ -9,4 +9,5 @@
     <string name="drinks">Choose your coffee</string>
     <string name="details">Coffee details</string>
     <string name="create_order">Create Order</string>
+    <string name="share">Share</string>
 </resources>

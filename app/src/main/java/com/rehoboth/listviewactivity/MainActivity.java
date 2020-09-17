@@ -45,13 +45,13 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 2:
                         TextView textView1 = (TextView) view;
-                        tView.setText(textView1.getText());
+                        textView1.setText(textView1.getText());
                         Toast toast1 = Toast.makeText(MainActivity.this,"Activity not implemented",Toast.LENGTH_LONG);
                         toast1.show();
                         break;
                     case 3:
                         TextView textView2 = (TextView) view;
-                        tView.setText(textView2.getText());
+                        textView2.setText(textView2.getText());
                         Toast toast2 = Toast.makeText(MainActivity.this,"Activity not implemented",Toast.LENGTH_LONG);
                         toast2.show();
                         break;

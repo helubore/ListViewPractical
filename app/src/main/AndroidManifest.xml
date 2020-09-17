@@ -10,10 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".DrinksDetail"
-            android:label="@string/details">
+            android:label="@string/details"
+            android:parentActivityName=".DrinksCategory">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DrinksCategory"/>
         </activity>
         <activity android:name=".DrinksCategory"
-            android:label="@string/drinks"/>
+            android:label="@string/drinks"
+            android:parentActivityName=".MainActivity"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

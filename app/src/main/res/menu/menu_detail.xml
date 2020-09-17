@@ -2,11 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_create_order"
-        android:title="@string/create_order"
-        android:icon="@drawable/ic_add_circle_outline_black_24dp"
+        android:id="@+id/shareAction"
+        android:title="@string/share"
         android:orderInCategory="1"
-        app:showAsAction="withText"
-        />
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"/>
 
 </menu>
